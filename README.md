@@ -2,6 +2,8 @@
 
 ## Introduction
 This repo contains terraform scripts to demo Terraform. It creates a EC2 Instance, Security Group and add a simple web application to the EC2 instance.
+The tool tfenv is used to fix the terraform version, see .terraform-version
+for the currect version.
 
 ## Setup
 To run the terraform scripts you need to have AWS keys. The easiest way is to provide them to docker via a file containing the keys as key value pair.
